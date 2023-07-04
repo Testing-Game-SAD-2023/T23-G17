@@ -271,6 +271,22 @@ h1{
 			 color: rgb(48, 87, 79);
 		 }
 		 
+	button{
+   			background-color:#E3FFF6;
+  			opacity: 0.7;
+   			font-weight: bold; /* testo in grassetto */
+            font-size: 1em;
+            height: 50px; /* altezza */
+         	width: 200px;
+         	position: relative;
+         	bottom:10px;
+         	border: none; /* Remove borders */
+ 			outline: none; /* Remove outline */
+        }
+        
+        
+   
+		 
 </style>
   <link rel="stylesheet" href="style.css">
   </head>
@@ -291,7 +307,7 @@ h1{
 		  </h3>
 		  <br>
 		 <h2><span th:text="${id}"></span> </h2></br>
-		  
+		 
 	  </div1>
 <input type="checkbox" id="ham-menu">
 <label for="ham-menu">
@@ -314,7 +330,8 @@ h1{
     <li>Storico</li>
     <li>Menu Giocatore</li>
     <li>Gioco</li>
-    <li>Logout</li>
+    <li><button type="button" th:onclick="| window.location.href='/'|">Logout</button></li>
+    
     
 
   </ul>
