@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="T23-G17/login_app copia/src/main/java"/>
+	<classpathentry kind="src" path="T23-G17/login_app copia/src/test/java/com/app"/>
+	<classpathentry kind="lib" path="__MACOSX/T23-G17/login_app copia/._login_app-0.0.1-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="__MACOSX/T23-G17/login_app copia/.mvn/wrapper/._maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="__MACOSX/T23-G17/login_app copia/target/._login_app-0.0.1-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="T23-G17/login_app copia/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="T23-G17/login_app copia/login_app-0.0.1-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="T23-G17/login_app copia/target/login_app-0.0.1-SNAPSHOT.jar"/>
+	<classpathentry kind="output" path="T23-G17/login_app copia/target/classes"/>
+</classpath>
